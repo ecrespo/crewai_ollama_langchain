@@ -1,0 +1,7 @@
+FROM llama2
+
+# set parameters
+PARAMETER temperature 0.8
+PARAMETER stop Result
+
+SYSTEM """"""

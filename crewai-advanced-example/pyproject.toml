@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "crewai-advanced-example"
+version = "0.1.0"
+description = ""
+authors = ["Ernesto Crespo <ecrespo@protonmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10,<=3.13"
+pyowm = "^3.3.0"
+tools = "^0.1.9"
+wikipedia = "^1.4.0"
+yfinance = "^0.2.37"
+sec-api = "^1.0.17"
+faiss-cpu = "^1.8.0"
+langchain-community = "^0.0.29"
+langchain-core = "^0.1.36"
+ollama = "^0.1.8"
+crewai = "^0.22.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
